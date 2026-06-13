@@ -23,69 +23,7 @@ Müşteri Tarafı
 | **Admin** | admin@borakurtca.com | admin123 |
 | **Müşteri** | musteri@borakurtca.com | musteri123 |
 
----
 
-## Proje Yapısı
-
-```
-borakurtca/
-├── app/
-│   ├── Http/
-│   │   ├── Controllers/
-│   │   │   ├── Admin/          # Admin paneli controller'ları
-│   │   │   ├── Auth/           # Kimlik doğrulama controller'ları
-│   │   │   ├── CartController.php
-│   │   │   ├── HomeController.php
-│   │   │   ├── OrderController.php
-│   │   │   ├── ProductController.php
-│   │   │   └── ProfileController.php
-│   │   └── Middleware/
-│   │       ├── EnsureUserIsAdmin.php
-│   │       └── HandleInertiaRequests.php
-│   └── Models/
-│       ├── Category.php
-│       ├── Order.php
-│       ├── OrderItem.php
-│       ├── Product.php
-│       └── User.php
-│
-├── database/
-│   ├── migrations/             # Veritabanı şeması
-│   └── seeders/                # Demo veri
-│
-├── resources/
-│   └── js/
-│       ├── Layouts/
-│       │   ├── AppLayout.jsx   # Müşteri tarafı layout (header, footer)
-│       │   ├── AdminLayout.jsx # Admin paneli sidebar layout
-│       │   └── GuestLayout.jsx # Giriş/kayıt sayfaları
-│       ├── Pages/
-│       │   ├── Home.jsx
-│       │   ├── Products/
-│       │   │   ├── Index.jsx
-│       │   │   └── Show.jsx
-│       │   ├── Cart/
-│       │   │   └── Index.jsx
-│       │   ├── Orders/
-│       │   │   ├── Create.jsx  # Checkout
-│       │   │   ├── Index.jsx
-│       │   │   └── Show.jsx
-│       │   ├── Auth/
-│       │   │   ├── Login.jsx
-│       │   │   └── Register.jsx
-│       │   └── Admin/
-│       │       ├── Dashboard.jsx
-│       │       ├── Categories/ (Index, Create, Edit)
-│       │       ├── Products/   (Index, Create, Edit)
-│       │       └── Orders/     (Index, Show)
-│       └── Components/
-│
-└── routes/
-    ├── web.php                 # Tüm route tanımları
-    └── auth.php                # Kimlik doğrulama rotaları
-```
-
----
 
 ##  Tech Stack
 
