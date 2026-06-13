@@ -1,19 +1,19 @@
 #
 
-Müşteri Tarafı (Storefront)
--  Anasayfa — öne çıkan ürünler ve kategori navigasyonu
--  Ürün Listesi — kategori filtresi, arama ve sıralama
--  Ürün Detay — stok bilgisi, benzer ürünler
--  Sepet — session tabanlı, gerçek zamanlı adet güncelleme
--  Checkout — teslimat formu, ödeme yöntemi seçimi
--  Sipariş Takibi — durum timeline'ı
+Müşteri Tarafı 
+-  Anasayfa
+-  Ürün Listesi
+-  Ürün Detay 
+-  Sepet 
+-  Checkout 
+-  Sipariş Takibi
 -  Profil Yönetimi
 
 **Admin Paneli**
--  Dashboard — satış grafikleri (BarChart + PieChart), istatistik kartları
--  Kategori CRUD — oluştur, düzenle, sil
--  Ürün CRUD — görsel yükleme, stok yönetimi, aktif/pasif
--  Sipariş Yönetimi — durum güncelleme, detay görüntüleme
+-  Dashboard
+-  Kategori CRUD 
+-  Ürün CRUD 
+-  Sipariş Yönetimi 
 
 
 ##  Demo Hesaplar
